@@ -1,8 +1,8 @@
-package com.micro.mall.domain.impl;
+package com.micro.mall.service.impl;
 
 import com.micro.mall.data.model.ProductCategory;
 import com.micro.mall.data.mapper.ProductCategoryMapper;
-import com.micro.mall.domain.ProductCategoryDomain;
+import com.micro.mall.service.ProductCategoryDomain;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

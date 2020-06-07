@@ -109,10 +109,10 @@ public class CodeGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent("com.micro.mall");
-        pc.setController("service" );
+        pc.setController("controller" );
         pc.setEntity("data.model" );
-        pc.setService("domain" );
-        pc.setServiceImpl("domain" + ".impl");
+        pc.setService("service" );
+        pc.setServiceImpl("service" + ".impl");
         pc.setMapper("data.mapper");
         pc.setXml("mapper");
         mpg.setPackageInfo(pc);

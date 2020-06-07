@@ -1,4 +1,4 @@
-package com.micro.mall.domain;
+package com.micro.mall.service;
 
 import com.micro.mall.data.model.ProductDetail;
 import com.baomidou.mybatisplus.extension.service.IService;
