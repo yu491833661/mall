@@ -19,7 +19,7 @@ public class CodeGenerator {
 
     final static String DB_URL = "jdbc:mysql://127.0.0.1:3306/mall?useUnicode=true&characterEncoding=utf-8&useSSL=false";
     final static String DB_USERNAME = "root";
-    final static String DB_PASSWORD = "root123456";
+    final static String DB_PASSWORD = "root";
 //    final static String OUT_DIR = "D://自动生成结果//";
 
 //    final static String OUT_DIR = "/Users/ohyeah/Desktop/generator/";
@@ -62,7 +62,7 @@ public class CodeGenerator {
         // gc.setXmlName("%sDao");
         gc.setServiceName("%sDomain");
         gc.setServiceImplName("%sDomainImpl");
-        gc.setControllerName("%sService");
+        gc.setControllerName("%sController");
         mpg.setGlobalConfig(gc);
 
         // 数据源配置

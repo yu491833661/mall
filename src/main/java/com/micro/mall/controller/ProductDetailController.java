@@ -15,7 +15,7 @@ import org.springframework.stereotype.Controller;
  */
 @Controller
 @RequestMapping("/productDetail")
-public class ProductDetailService {
+public class ProductDetailController {
 
 }
 
