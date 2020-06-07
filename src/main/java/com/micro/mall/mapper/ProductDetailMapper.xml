@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.micro.mall.data.mapper.ProductDetailMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.micro.mall.data.model.ProductDetail">
+        <id column="id" property="id" />
+        <result column="version" property="version" />
+        <result column="product_name" property="productName" />
+        <result column="unit" property="unit" />
+        <result column="icon" property="icon" />
+        <result column="remark" property="remark" />
+        <result column="creator_id" property="creatorId" />
+        <result column="creator_name" property="creatorName" />
+        <result column="modifier_id" property="modifierId" />
+        <result column="modifier_name" property="modifierName" />
+        <result column="gmt_create" property="gmtCreate" />
+        <result column="gmt_modified" property="gmtModified" />
+        <result column="is_deleted" property="isDeleted" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        version,
+        id, product_name, unit, icon, remark, creator_id, creator_name, modifier_id, modifier_name, gmt_create, gmt_modified, is_deleted
+    </sql>
+
+</mapper>

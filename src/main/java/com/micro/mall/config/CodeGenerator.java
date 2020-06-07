@@ -39,7 +39,7 @@ public class CodeGenerator {
     // 业务模块 包名
     final static String modulePackage = "inv";
 
-    final static String[] GENERATOR_TABLE = new String[]{"bas_sku"};
+    final static String[] GENERATOR_TABLE = new String[]{"product_category","product_detail","product_file"};
 
     public static void main(String[] args) {
         AutoGenerator mpg = new AutoGenerator();
@@ -108,13 +108,13 @@ public class CodeGenerator {
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("com.micro.mall.webapi");
-        pc.setController("service." + modulePackage);
-        pc.setEntity("data.model." + modulePackage);
-        pc.setService("domain." + modulePackage);
-        pc.setServiceImpl("domain." + modulePackage + ".impl");
-        pc.setMapper("data.mapper." + modulePackage);
-        pc.setXml("mapper." + modulePackage);
+        pc.setParent("com.micro.mall");
+        pc.setController("service" );
+        pc.setEntity("data.model" );
+        pc.setService("domain" );
+        pc.setServiceImpl("domain" + ".impl");
+        pc.setMapper("data.mapper");
+        pc.setXml("mapper");
         mpg.setPackageInfo(pc);
 
         // 注入自定义配置，可以在 VM 中使用 cfg.abc 【可无】  ${cfg.abc}
