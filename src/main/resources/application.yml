@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+### spring ≈‰÷√
+spring:
+  application:
+    name: micro-mall
+
+  profiles:
+    include: db
