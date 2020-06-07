@@ -28,7 +28,7 @@ public class CodeGenerator {
     //final static String OUT_DIR = "E:\\Projects\\wms-webapi\\src\\main\\java";
 
 
-    final static String OUT_DIR = "/Users/yuqiang/IdeaProjects";
+    final static String OUT_DIR = "/Users/yuqiang/IdeaProjects/mall/src/main/java";
 
     //final static String OUT_DIR = "E:\\01_work";
 
